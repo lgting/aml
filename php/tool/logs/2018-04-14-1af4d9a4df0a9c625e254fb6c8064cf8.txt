@@ -1,0 +1,35 @@
+Time : 22:05:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='大小', phone=13641759653 where userid = 298' at line 1
+Raw SQL : update xl_userinfo setusername='大小', phone=13641759653 where userid = 298
+
+Time : 22:04:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='大小', phone=13641759653 where userid = 298' at line 1
+Raw SQL : update xl_userinfo setusername='大小', phone=13641759653 where userid = 298
+
+Time : 22:03:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=大小, phone=13641759653 where userid = 298' at line 1
+Raw SQL : update xl_userinfo setusername=大小, phone=13641759653 where userid = 298
+
+Time : 22:03:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=111 where userid = 317' at line 1
+Raw SQL : update xl_userinfo setusername=111 where userid = 317
+
+Time : 21:56:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '='123' where userid = 317' at line 1
+Raw SQL : update xl_userinfo setusername='123' where userid = 317
+
+Time : 21:37:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where userid =' at line 1
+Raw SQL : update xl_userinfo where userid =
+
+Time : 21:33:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where userid =' at line 1
+Raw SQL : update xl_userinfo where userid =
+
+Time : 20:23:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where userid =' at line 1
+Raw SQL : update xl_userinfo where userid =
+
+Time : 09:10:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where userid =' at line 1
+Raw SQL : update xl_userinfo where userid =

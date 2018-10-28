@@ -1,0 +1,91 @@
+Time : 22:25:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 21:48:11
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 21:23:28
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 15:46:54
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 13:22:26
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 13:08:15
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:27:46
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:20:37
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:20:21
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:19:51
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:18:45
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:14:50
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:11:42
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:06:02
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 12:00:49
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 11:57:55
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 10:54:25
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 10:54:05
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 10:32:24
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 10:28:47
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 02:11:20
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 01:56:43
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)
+
+Time : 01:48:00
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex)VALUES(?,?,?,?,?,?,?)

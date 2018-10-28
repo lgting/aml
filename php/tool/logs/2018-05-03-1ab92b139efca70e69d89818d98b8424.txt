@@ -1,0 +1,23 @@
+Time : 21:58:39
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 20:49:49
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 19:54:08
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 16:15:39
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 16:06:05
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 15:28:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)

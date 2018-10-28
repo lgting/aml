@@ -1,0 +1,7 @@
+[2017-10-23 00:35:58][debug] begin goods notify
+[2017-10-23 00:35:58][debug] call back...:{"appid":"wx7d05a96d073b899b","attach":"GoodsPayParam;1;380\u5957\u9910;1;1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1489371702","nonce_str":"foh8islnlysq7lpvw96584ywdhmakknf","openid":"olXx5wd4-x6BhfMoqkK_Fsb10tyY","out_trade_no":"148937170220171022213129","result_code":"SUCCESS","return_code":"SUCCESS","sign":"77D5AAE5E5B3C68B7A40ED9EE8D8DCB2","time_end":"20171022213134","total_fee":"1","trade_type":"JSAPI","transaction_id":"4200000005201710229710555356"}
+[2017-10-23 00:35:58][debug] query:{"appid":"wx7d05a96d073b899b","attach":"GoodsPayParam;1;380\u5957\u9910;1;1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1489371702","nonce_str":"HU8jbaEnRSi2qyng","openid":"olXx5wd4-x6BhfMoqkK_Fsb10tyY","out_trade_no":"148937170220171022213129","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"EDB759FB54DDBA262401609C50552E39","time_end":"20171022213134","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4200000005201710229710555356"}
+[2017-10-23 07:51:21][debug] abcdef
+[2017-10-23 07:52:22][debug] abcdef
+[2017-10-23 07:52:22][debug] kakahttp://www.jubenxiong.com/?code=abc
+[2017-10-23 07:52:41][debug] abcdef

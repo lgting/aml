@@ -1,0 +1,19 @@
+Time : 13:42:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select userid,username from xl_userinfo where userid in ()
+
+Time : 13:26:58
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'issystem' in 'field list'
+Raw SQL : update xl_userinfo set role = ?,issystem=? where userid=?
+
+Time : 13:26:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'issystem' in 'field list'
+Raw SQL : update xl_userinfo set role = ?,issystem=? where userid=?
+
+Time : 11:31:04
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'commagent' at row 1
+Raw SQL : update xl_goods set gname=?,message=?,price=?,isshow=?,giveIntegral=?,commissionboss=?,commissionsalesman=?,htmlmsg=?,type=?,icon=?,buymessage=?,showType=?,buyType=?,extsource=?,commagent=? where id=?
+
+Time : 11:30:23
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'commagent' at row 1
+Raw SQL : update xl_goods set gname=?,message=?,price=?,isshow=?,giveIntegral=?,commissionboss=?,commissionsalesman=?,htmlmsg=?,type=?,icon=?,buymessage=?,showType=?,buyType=?,extsource=?,commagent=? where id=?

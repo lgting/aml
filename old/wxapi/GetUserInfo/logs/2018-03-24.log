@@ -1,0 +1,2 @@
+[2018-03-24 21:09:16][debug] query:http://www.jubenxiong.com/aml/wxapi/GetUserInfo/getUserInfo.php?type=amlzlogin
+[2018-03-24 21:10:49][debug] query:{"access_token":"8_6LjgRwawuFWM3cRfyUB5fZZeFPpJpU9btsXKhklJjY0pPWnc8KrTPbDZpnq_yEzZUGi1JKcMoeWEsqDs9C42Xw","expires_in":7200,"refresh_token":"8_0YJUFH2bk66sk6o-8KvDUertTTadgHmdR60fQoAV95S13sRAJpW0u9gKPuXwcAPADP7mSy70syZ7FImBPMVS-w","openid":"oW5_rjuz7jzseHht4WqpLMR53tX8","scope":"snsapi_userinfo"}...urls=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/getUserInfo.php?type=amlzlogin

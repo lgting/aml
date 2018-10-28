@@ -1,0 +1,67 @@
+Time : 20:18:03
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 16:55:44
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 16:55:43
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 14:54:07
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 14:52:55
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 14:32:18
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:40:10
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:37:26
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:37:26
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:35:39
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:35:38
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:35:17
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:35:16
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:34:56
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:34:56
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:33:14
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)
+
+Time : 13:33:09
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'wxopenid' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime,sex,wxopenid,wxopenidkey)VALUES(?,?,?,?,?,?,?,?,?)

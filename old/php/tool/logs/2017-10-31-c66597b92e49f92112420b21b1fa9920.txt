@@ -1,0 +1,27 @@
+Time : 07:47:37
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'price' in field list is ambiguous
+Raw SQL : SELECT buyid,serialnum,setsname,buydate,giftnum,expnum,icon,price,xl_goods.id FROM xl_buylist,xl_goods where xl_buylist.userid = ? and xl_buylist.goodsid = xl_goods.id
+
+Time : 07:47:14
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'price' in field list is ambiguous
+Raw SQL : SELECT buyid,serialnum,setsname,buydate,giftnum,expnum,icon,price,xl_goods.id FROM xl_buylist,xl_goods where xl_buylist.userid = ? and xl_buylist.goodsid = xl_goods.id
+
+Time : 07:44:47
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'price' in field list is ambiguous
+Raw SQL : SELECT buyid,serialnum,setsname,buydate,giftnum,expnum,icon,price,xl_goods.id FROM xl_buylist,xl_goods where xl_buylist.userid = ? and xl_buylist.goodsid = xl_goods.id
+
+Time : 07:44:35
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'price' in field list is ambiguous
+Raw SQL : SELECT buyid,serialnum,setsname,buydate,giftnum,expnum,icon,price,xl_goods.id FROM xl_buylist,xl_goods where xl_buylist.userid = ? and xl_buylist.goodsid = xl_goods.id
+
+Time : 07:44:24
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'price' in field list is ambiguous
+Raw SQL : SELECT buyid,serialnum,setsname,buydate,giftnum,expnum,icon,price,xl_goods.id FROM xl_buylist,xl_goods where xl_buylist.userid = ? and xl_buylist.goodsid = xl_goods.id
+
+Time : 07:44:21
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'price' in field list is ambiguous
+Raw SQL : SELECT buyid,serialnum,setsname,buydate,giftnum,expnum,icon,price,xl_goods.id FROM xl_buylist,xl_goods where xl_buylist.userid = ? and (giftnum <> 0 or expnum <> 0) and xl_buylist.goodsid = xl_goods.id
+
+Time : 07:44:14
+SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'price' in field list is ambiguous
+Raw SQL : SELECT buyid,serialnum,setsname,buydate,giftnum,expnum,icon,price,xl_goods.id FROM xl_buylist,xl_goods where xl_buylist.userid = ? and xl_buylist.goodsid = xl_goods.id

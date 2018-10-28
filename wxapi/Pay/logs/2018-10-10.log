@@ -1,0 +1,16 @@
+[2018-10-10 11:49:02][debug] begin goods notify
+[2018-10-10 11:49:02][debug] call back...---:{"appid":"wxd42787e75e0a0d24","attach":"DepositPayParam;1094;1093;\u4e1a\u52a1\u7ed1\u5b9a\u5546\u6237\u62bc\u91d1;1;1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1499493602","nonce_str":"g8fclwnn3uxwtj69u4iu7n6vfkf2zc2g","openid":"oJj3g0xUYrk828LugD0JawNu-EAA","out_trade_no":"149949360220181010114842","result_code":"SUCCESS","return_code":"SUCCESS","sign":"6DE296FFE2FB7BDEFFA3A35F7E8F47A7","time_end":"20181010114902","total_fee":"1","trade_type":"JSAPI","transaction_id":"4200000166201810109989585984"}
+[2018-10-10 11:49:02][debug] query:{"appid":"wxd42787e75e0a0d24","attach":"DepositPayParam;1094;1093;\u4e1a\u52a1\u7ed1\u5b9a\u5546\u6237\u62bc\u91d1;1;1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"N","mch_id":"1499493602","nonce_str":"bXUIEJsg8udq9lTe","openid":"oJj3g0xUYrk828LugD0JawNu-EAA","out_trade_no":"149949360220181010114842","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"092FB7E32BB23420EC1E346BF06A892A","time_end":"20181010114902","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000166201810109989585984"}
+[2018-10-10 11:49:02][debug] add_depositlist
+[2018-10-10 11:49:02][debug] insert1094..1093
+[2018-10-10 11:49:02][debug] insert1业务绑定商户押金,1094,1093,1,1539143342,1,4200000166201810109989585984
+[2018-10-10 11:49:02][debug] insert21
+[2018-10-10 16:18:11][debug] begin goods notify
+[2018-10-10 16:18:11][debug] call back...---:false
+[2018-10-10 16:18:11][debug] begin goods notify
+[2018-10-10 16:18:11][debug] call back...---:{"value":{"xxe":{"xxe":[]}}}
+[2018-10-10 17:31:34][debug] begin goods notify
+[2018-10-10 17:31:34][debug] call back...---:{"appid":"wxd42787e75e0a0d24","attach":"GoodsPayParam;15391638861095","bank_type":"CITIC_CREDIT","cash_fee":"39800","fee_type":"CNY","is_subscribe":"Y","mch_id":"1499493602","nonce_str":"ynwd1z2vwxmcerq6wi8pshmb33v02chz","openid":"oJj3g07P-3oGjc_wCk8qL2IUKZ8s","out_trade_no":"149949360220181010173126","result_code":"SUCCESS","return_code":"SUCCESS","sign":"E99EE01F627DFA971CA0FC3B2EC46732","time_end":"20181010173133","total_fee":"39800","trade_type":"JSAPI","transaction_id":"4200000174201810106449657768"}
+[2018-10-10 17:31:34][debug] query:{"appid":"wxd42787e75e0a0d24","attach":"GoodsPayParam;15391638861095","bank_type":"CITIC_CREDIT","cash_fee":"39800","fee_type":"CNY","is_subscribe":"Y","mch_id":"1499493602","nonce_str":"43k514K9FN6RMytv","openid":"oJj3g07P-3oGjc_wCk8qL2IUKZ8s","out_trade_no":"149949360220181010173126","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"4A4F0D02B44861AE01A6E5A928AC12D0","time_end":"20181010173133","total_fee":"39800","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000174201810106449657768"}
+[2018-10-10 17:31:34][debug] im enter
+[2018-10-10 17:31:34][debug] addgoods4200000174201810106449657768

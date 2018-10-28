@@ -1,0 +1,7 @@
+[2018-09-08 21:54:50][debug] begin goods notify
+[2018-09-08 21:54:50][debug] call back...---:{"appid":"wxd42787e75e0a0d24","attach":"DepositPayParam;1035;842;\u4e1a\u52a1\u7ed1\u5b9a\u5546\u6237\u62bc\u91d1;1;1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1499493602","nonce_str":"2kdldnlsj5v41g2pi9jfd247two4i9w3","openid":"oJj3g0z9BwGINORSMgrvEmpFdn7E","out_trade_no":"149949360220180908215444","result_code":"SUCCESS","return_code":"SUCCESS","sign":"1117305493D7628DB7A306125B41B130","time_end":"20180908215449","total_fee":"1","trade_type":"JSAPI","transaction_id":"4200000175201809089455307216"}
+[2018-09-08 21:54:50][debug] query:{"appid":"wxd42787e75e0a0d24","attach":"DepositPayParam;1035;842;\u4e1a\u52a1\u7ed1\u5b9a\u5546\u6237\u62bc\u91d1;1;1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1499493602","nonce_str":"7ce5ltVQH9et2Y6T","openid":"oJj3g0z9BwGINORSMgrvEmpFdn7E","out_trade_no":"149949360220180908215444","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"B9E4833D29EF88E497A4DCE5D3E7E1D3","time_end":"20180908215449","total_fee":"1","trade_state":"SUCCESS","trade_state_desc":"\u652f\u4ed8\u6210\u529f","trade_type":"JSAPI","transaction_id":"4200000175201809089455307216"}
+[2018-09-08 21:54:50][debug] add_depositlist
+[2018-09-08 21:54:50][debug] insert1035..842
+[2018-09-08 21:54:50][debug] insert1业务绑定商户押金,1035,842,1,1536414890,1,4200000175201809089455307216
+[2018-09-08 21:54:50][debug] insert21

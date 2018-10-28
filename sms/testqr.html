@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id='qrcode' style="width: 200px;height: 200px;background-color: #CCCCCC;"></div>
+		<script src="js/jquery/jquery-3.2.1.min.js"></script>
+		<script src="js/qr/jquery.qrcode.js"></script>
+		<script src="js/qr/qrcode.js"></script>
+		<script>
+			$(document).ready(function(){
+				//createQR();
+				sendPhoneReq();
+			});
+			
+//			function createQR(){
+//				var urlstr = "http://192.168.2.165/aml/php/suncode/dealfuc.php?fuc=usecoupon&cpid=SFJHSJHFHSBFSA55";
+//				$('#qrcode').qrcode(urlstr);
+//			}
+			function sendPhoneReq(){
+				urlstr="http://www.jubenxiong.com/sms/suncode/msgservice.php";
+				postjson = {};
+				postjson['fuc']='msg';
+				postjson['phone']='15821066252';
+				jQuery.post(urlstr,postjson,function(respdata){
+					console.log(respdata);
+				})
+			}
+		</script>
+	</body>
+</html>

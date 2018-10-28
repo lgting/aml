@@ -1,0 +1,183 @@
+Time : 13:44:44
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'headimgurl' at row 1
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl,regTime)VALUES(?,?,?,?,?,?)
+
+Time : 13:42:11
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'headimgurl' at row 1
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl)VALUES(?,?,?,?,?)
+
+Time : 13:40:54
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl)VALUES(?,?,?,?,?)
+
+Time : 13:40:33
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl)VALUES(?,?,?,?,?)
+
+Time : 13:39:48
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl)VALUES(?,?,?,?,?)
+
+Time : 13:39:08
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'username' cannot be null
+Raw SQL : insert into xl_userinfo(username,role,accounts,openid,headimgurl)VALUES(?,?,?,?,?)
+
+Time : 13:37:01
+SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+Time : 13:36:16
+SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+Time : 13:35:45
+SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+Time : 13:33:27
+SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+Time : 21:23:20
+SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+Time : 21:20:43
+SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+Time : 19:31:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 19:28:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:16:14
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:14:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:14:12
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:13:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:11:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:10:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:07:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:06:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:05:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 18:04:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 17:56:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 17:54:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 17:52:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))
+
+Time : 17:51:37
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'dateto' in 'field list'
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,1,1507801897,1510393897)
+
+Time : 17:50:15
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801815,1510393815)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801815,1510393815)
+
+Time : 17:50:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801808,1510393808)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801808,1510393808)
+
+Time : 17:44:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801492,1510393492)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801492,1510393492)
+
+Time : 17:44:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801475,1510393475)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801475,1510393475)
+
+Time : 17:43:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801438,1510393438)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801438,1510393438)
+
+Time : 17:43:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801433,1510393433)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801433,1510393433)
+
+Time : 17:43:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801432,1510393432)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801432,1510393432)
+
+Time : 17:43:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801432,1510393432)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801432,1510393432)
+
+Time : 17:43:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801432,1510393432)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801432,1510393432)
+
+Time : 17:43:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801430,1510393430)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801430,1510393430)
+
+Time : 17:42:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801368,1510393368)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801368,1510393368)
+
+Time : 17:42:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801368,1510393368)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801368,1510393368)
+
+Time : 17:42:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801368,1510393368)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801368,1510393368)
+
+Time : 17:42:48
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801368,1510393368)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801368,1510393368)
+
+Time : 17:42:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801367,1510393367)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801367,1510393367)
+
+Time : 17:42:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801325,1510393325)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801325,1510393325)
+
+Time : 17:41:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1507801273,1510393273)' at line 1
+Raw SQL : insert into xl_couponlist(cpuuid,belongto,datefrom,dateto) value(1,,1507801273,1510393273)
+
+Time : 17:36:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price)values(?,?,?,?,?,?,?,?,?))

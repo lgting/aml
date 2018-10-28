@@ -1,0 +1,31 @@
+[2018-03-29 12:06:15][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 13:11:33][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 13:15:29][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 13:15:29][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 13:20:13][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 13:21:58][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 13:22:31][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 14:51:52][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 14:51:53][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:24:23][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:25:14][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:52:30][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:52:51][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:54:42][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:54:42][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:56:25][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:56:25][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:56:38][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:56:38][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 15:59:54][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 16:00:42][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 16:00:43][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 17:01:19][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 17:02:16][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 17:02:16][debug] query:{"errcode":41008,"errmsg":"missing code, hints: [ req_id: tf0D8a0136th48 ]"}...urls=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 17:03:04][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 17:03:52][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 17:03:52][debug] query:{"errcode":40163,"errmsg":"code been used, hints: [ req_id: 646DFa0232th56 ]"}...urls=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 17:37:36][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 19:57:52][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin
+[2018-03-29 21:03:09][debug] query:=http://www.jubenxiong.com/aml/wxapi/GetUserInfo/dropindex.php?type=amlzlogin

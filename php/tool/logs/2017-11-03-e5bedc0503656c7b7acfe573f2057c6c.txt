@@ -1,0 +1,19 @@
+Time : 17:55:20
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'finishdate' in 'field list'
+Raw SQL : SELECT xl_userinfo.userid,xl_userinfo.username,role,
+		bankname,banknum,bankaccount,drawdate,finishdate,sum FROM xl_drawrecord,xl_userinfo,xl_bankinfos WHERE xl_drawrecord.username=xl_userinfo.userid and xl_userinfo.userid=xl_bankinfos.username ORDER BY finishdate DESC LIMIT ?,?
+
+Time : 17:55:14
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'finishdate' in 'field list'
+Raw SQL : SELECT xl_userinfo.userid,xl_userinfo.username,role,
+		bankname,banknum,bankaccount,drawdate,finishdate,sum FROM xl_drawrecord,xl_userinfo,xl_bankinfos WHERE xl_drawrecord.username=xl_userinfo.userid and xl_userinfo.userid=xl_bankinfos.username ORDER BY finishdate DESC LIMIT ?,?
+
+Time : 17:53:19
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'finishdate' in 'field list'
+Raw SQL : SELECT xl_userinfo.userid,xl_userinfo.username,role,
+		bankname,banknum,bankaccount,drawdate,finishdate,sum FROM xl_drawrecord,xl_userinfo,xl_bankinfos WHERE xl_drawrecord.username=xl_userinfo.userid and xl_userinfo.userid=xl_bankinfos.username ORDER BY finishdate DESC LIMIT ?,?
+
+Time : 17:53:05
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'finishdate' in 'field list'
+Raw SQL : SELECT xl_userinfo.userid,xl_userinfo.username,role,
+		bankname,banknum,bankaccount,drawdate,finishdate,sum FROM xl_drawrecord,xl_userinfo,xl_bankinfos WHERE xl_drawrecord.username=xl_userinfo.userid and xl_userinfo.userid=xl_bankinfos.username ORDER BY finishdate DESC LIMIT ?,?

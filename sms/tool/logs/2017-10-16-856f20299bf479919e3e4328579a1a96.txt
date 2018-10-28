@@ -1,0 +1,103 @@
+Time : 17:46:44
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:46:27
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:43:49
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:43:24
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:42:51
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:42:34
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:42:21
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:40:47
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:40:14
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:39:55
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:39:46
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:39:42
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:36:44
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:36:12
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:35:54
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:35:35
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:27:06
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:24:03
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:23:30
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:23:12
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:23:02
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : insert into xl_depositlist(dpname,username,salesman,sum,depositdate,dptype,tactionid) values(?,?,?,?,?,?)
+
+Time : 17:16:41
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'transaction_id' in 'where clause'
+Raw SQL : select * from xl_deposit where transaction_id = ?
+
+Time : 17:13:39
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'transaction_id' in 'where clause'
+Raw SQL : select * from xl_deposit where transaction_id = ?
+
+Time : 17:13:06
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'transaction_id' in 'where clause'
+Raw SQL : select * from xl_deposit where transaction_id = ?
+
+Time : 17:12:48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'transaction_id' in 'where clause'
+Raw SQL : select * from xl_deposit where transaction_id = ?
+
+Time : 17:12:31
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'transaction_id' in 'where clause'
+Raw SQL : select * from xl_deposit where transaction_id = ?

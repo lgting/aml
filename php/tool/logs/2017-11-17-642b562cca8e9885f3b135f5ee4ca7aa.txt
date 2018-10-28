@@ -1,0 +1,3 @@
+Time : 15:43:15
+SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'starttime' at row 1
+Raw SQL : insert into xl_coupon(cname,message,iconurl,type,starttime,endtime,addtime)values(?,?,?,?,?,?,?)

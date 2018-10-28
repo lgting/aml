@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery-2.0.2.min.js"></script>
+		<link href="bootstrap.min.css" />
+	</head>
+	<body>
+		
+
+		
+		<button id="btn1"> 代理商业务员列表 </button>
+		
+		<button id="btn2"> 代理商美导列表 </button>
+		
+		<button id="btn3"> 代理商按电话查找用户信息 </button>
+		
+		<button id="btn4"> 美导或者业务的商户信息 </button>
+		
+		<button id="btn5"> 代理商所有商户信息 </button>
+		
+		<button id="btn6"> 商户和美导之间绑定关系  </button>
+		
+		<button id="btn7"> 代理商添加业务员  </button>
+		
+		<button id="btn8"> 代理商添加美导  </button>
+		<br/>
+		
+		<code>
+				error ok 代表返回正确<br>
+				arr 返回的数组{<br>
+					&nbsp;conndate 建立关系时间<br>
+					&nbsp;headimgurl 头像<br>
+					&nbsp;role 角色<br>
+					&nbsp;phone 电话<br>
+					&nbsp;username 用户名字<br>
+					&nbsp;belongto 上线编号<br>
+					&nbsp;belongtoname 上线用户名<br>
+				}
+		</code>
+		
+		<br/>		
+		<button id="btn9"> 积分商城首页  </button>
+		<button id="btn10"> 积分商品详情介绍信息  和老的一样</button>
+		<button id="btn11"> 购买积分商品  </button>
+		<button id="btn12"> 积分购买记录  </button>
+		<button id="btn13"> 使用积分商品  </button>
+		<button id="btn14"> 轮发商品是否被使用的消息  </button>
+		<button id="btn15"> 交易明细  </button>
+		<button id="btn16"> 转赠  </button>
+		<button id="btn17"> 消费券详情  </button>
+		<button id="btn18"> 查询用户角色信息  </button>
+		<button id="btn19"> 老板娘商城  </button>
+		<button id="btn20"> 退款  </button>
+		<button id="btn22"> 取消退款  </button>
+		<button id="btn23"> 修改提成  </button>
+		<button id="btn25"> 取消绑定  </button>
+		
+		<button id="btn26"> 取消业务员关系  </button>
+		<button id="btn27"> 用户信息更新  </button>
+		<br />
+		
+		<br>
+		<br>
+
+		<button id="btn28"> 查看对应类型商品  </button>
+		<button id="btn32"> 查看对应顶部商品  </button>
+		
+		<button id="btn29"> 发送登陆验证码  </button>
+		<button id="btn30"> 验证登陆  </button>
+		<button id="btn31"> token验证  </button>
+		<button id="btn33"> 修改用户信息  </button>
+		
+		<br>
+		<button id="btn34"> 查看那些用户购买了代理商的商品  </button>
+		<button id="btn35"> 代理商修改购买了他的商品的订单状态  </button>
+		
+		
+		<button id="redisbtn"> redis 设置时间  </button>
+		
+		<samp id="showmgs">  </samp>
+		
+		
+	</body>
+	
+	<script>
+		
+		$("#btn1").click(function(){
+			//aid 代理商id
+			//roletp 角色类型（3业务,4美导）
+			var backmsg = {type:'showagentlist',aid:151,roletp:3,page:0};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);				
+				$("#showmgs").html(atk);
+				
+				
+				
+			});
+		});
+		
+		
+		$("#btn2").click(function(){
+			//aid 代理商id
+			//roletp 角色类型（3业务,4美导）
+			var backmsg = {type:'showagentlist',aid:151,roletp:4,page:0};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn3").click(function(){
+//			var backmsg = {type:'afubyphone',phone:"18017647536"};
+			
+			//phone 电话号码
+			//aid 代理商编号
+			//role 角色信息 (0为所有 其他在对应的角色里查找)
+			var backmsg = {type:'afubyphone',phone:"17778781225",aid:20,role:0};
+//			var backmsg = {type:'afubyphone',phone:"18017647536",aid:20,role:0};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//-100 手机号码不正确
+				//-101 没有找到该用户
+				//-102 当前角色下没该用户
+				
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn4").click(function(){
+			//user 用户编号
+			var backmsg = {fuc:'clientlist',user:"21"};
+
+//			var backmsg = {type:'afubyphone',phone:13795292286};
+			jQuery.post("http://www.amyshirley.com/aml/php/suncode/dealfuc.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn5").click(function(){
+			//aid 业务员编号
+			//page 分页0 第一页 1第二页。。。。
+			var backmsg = {type:'allaboss',aid:151,page:0};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn6").click(function(){
+			//bid 商户编号
+			//hid 美导编号
+			//aid 代理商编号
+			//role 角色  3 商户和业务绑定    4 商户和美导绑定关系
+			var backmsg = {type:'bthconn',bid:"153",hid:"154",aid:151,role:3};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				$("#showmgs").html(atk);
+				
+				//-100 bid目前不是商户
+				//-101 hid目前不是美导或者不是业务
+				//-102 已经绑定美导或者业务
+				//-103 已经绑定美导 穿过来的角色不是美导或者业务
+				//-104 代理商数据错误
+				//fail 添加失败
+				//ok 成功
+			});
+		});
+		
+		$("#btn7").click(function(){
+			//aid 代理商编号
+			//uid 用户编号
+			//role 成为的角色类型 3 业务
+			var backmsg = {type:'acsorh',aid:"21",uid:"27",role:3};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				$("#showmgs").html(atk);
+				
+				//-100 aid目前不是代理商
+				//-101 uid目前不是用户
+				//-102 用户和其他人绑定的关系
+				//fail 添加失败
+				//ok 成功
+			});
+		});
+		
+		$("#btn8").click(function(){
+			//aid 代理商编号
+			//uid 用户编号
+			//role 成为的角色类型 4美导
+			var backmsg = {type:'acsorh',aid:"21",uid:"29",role:"4"};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				$("#showmgs").html(atk);
+				
+				//-100 aid目前不是代理商
+				//-101 uid目前不是用户
+				//-102 用户和其他人绑定的关系
+				//ok 成功
+			});
+		});
+		
+		//积分商城首页
+		$("#btn9").click(function(){		
+			var backmsg = {type:'sourceshophome'};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//gname 商品名称
+				//message 描述
+				//price 积分价格
+				//icon 价格
+				//type 商品类型 0 套餐  1商品 2积分商品
+				//showType 显示类型 0 普通商品列表中  1 商城首页头条  2商城首页
+				
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		$("#btn10").click(function(){		
+			var backmsg = {type:'goodsmgs',goodsid:31};
+			jQuery.post("http://www.amyshirley.com/aml/php/ttl/goodsFunction.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//gname 商品名称
+				//message 描述
+				//price 积分价格
+				//icon 价格
+				//type 商品类型 0 套餐  1商品 2积分商品
+				//showType 显示类型 0 普通商品列表中  1 商城首页头条  2商城首页
+				
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		$("#btn11").click(function(){
+			//gid 商品编号哦
+			//uid 用户编号
+			//num 数量
+			var backmsg = {type:'busourcegoods',gid:31,uid:21,num:1};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//ok 操作成功
+				//-100 用户不存在
+				//-101 商品不存在
+				//-102 只能购买一次
+				//-103 积分不足
+				//-104 数量必须大于0
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		$("#btn12").click(function(){		
+			//uid 用户编号
+			//page 页面 0开始
+			var backmsg = {type:'sourcebuyhistroy',uid:21,page:0};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//,username, gname,headimgurl
+				//oid 订单编号
+				//userid 用户编号
+				//goodsid 商品编号
+				//source 花费积分
+				//state 状态 1 待收货  2已收货
+				//times 下单时间
+				//nums 购买数量
+				//bossid 在哪个老板娘哪里使用的
+				//username 用户名 
+				//gname 商品名字
+				//headimgurl 商品头像
+				//usetime 使用的时间
+				
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		
+		$("#btn13").click(function(){
+			//bid 商户编号
+			//uid 用户编号
+			//oid 订单编号
+			var backmsg = {type:'usesourcegoods',uid:21,bid:20,oid:"5aa3e888ab21c"};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//ok 操作成功
+				//-100 用户不存在
+				//-101 商户不存在
+				//-102 用户身份不对
+				//-103 商户身份不对
+				//-104 修改失败
+				//-105 订单没找到
+				//-106 订单信息错误
+				//-107 订单已完结
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		$("#btn14").click(function(){
+			//hand 订单编号即可
+			var backmsg = {type:'usesourcehand',hand:"usesource:oid:5a76d25d70cf7"};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//ok 操作成功
+				//-100 无效
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		$("#btn15").click(function(){
+			//bid 商户编号
+			//uid 用户编号
+			//oid 订单编号
+			
+			//usetype
+			//1 积分分成
+			//2 现金分成
+			//3 提现
+			var backmsg = {fuc:"moneynotes",user:49,page:0};
+			jQuery.post("http://www.amyshirley.com/aml/php/suncode/dealfuc.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//ok 操作成功
+				//-100 用户不存在
+				//-101 商户不存在
+				//-102 用户身份不对
+				//-103 商户身份不对
+				//-104 修改失败
+				//-105 订单没找到
+				//-106 订单信息错误
+				//-107 订单已完结
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		$("#btn16").click(function(){
+			
+			//guid 转赠人userid 
+			//tguid 被转赠人userid 
+			//buyid 购买订单编号
+			
+			
+			
+			var backmsg = {type:'goodsgive',guid:20,tguid:90,buyid:67};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//ok 操作成功
+				//-100 套餐被使用过
+				//-101 商品被赠送给
+				//-102 赠送者不是购买者
+				//-103 该赠送用户已经和其他商户绑定了关系
+				
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		
+		$("#btn17").click(function(){
+			//buyid 购买编号
+			//state 0.未使用  1.已经使用 2.已经过期
+			var backmsg = {type:"couponlist",buyid:109};
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//ok 操作成功
+
+				$("#showmgs").html(atk);
+				
+			});
+		});
+		
+		$("#btn18").click(function(){
+			//phone 电话号码
+			//role 用户对应角色  role 为0的时候代表所有
+			var backmsg = {type:'finduserbyphone',phone:"13916199451",role:0};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				//-100 手机号码不正确
+				//-101 没有找到该用户
+				//-102 当前角色下没该用户
+				
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn19").click(function(){
+			
+			var backmsg = {type:'showbossshop'};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				
+				
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn20").click(function(){
+			//buyid 编号
+			//serialnum 下单编号
+			var backmsg = {type:'exitgoods',buyid:112,serialnum:'4200000040201711175320505447'};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				//-100 //订单不存在
+				//-101 //订单已经被使用不能退款
+				//-102 //转赠订单不能退款
+				//-103 //超过7天不能退货
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn22").click(function(){
+			var backmsg = {type:'exitexitgoods',buyid:67,serialnum:'4200000040201711175320505447'};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				//-100 //订单不存在
+				//-101 //非退款状态不能退款
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn23").click(function(){
+			//aid 代理商编号
+			//uid 被修改分成用户编号
+			//scom 分成
+			var backmsg = {type:'updatecommission',aid:151,uid:154,scom:0.1};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				//-100 //代理商不存在
+				//-101 //代理商id角色不是代理商
+				//-102 //用户不存在
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		//取消绑定关系
+		$("#btn25").click(function(){
+			//aid 代理商编号
+			//bid 被修改分成用户编号
+			//sid 业务员或者美导的编号
+			var backmsg = {type:'bossec',aid:151,bid:157,sid:156};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				//-100 //商户角色不存在
+				//-101 //美导或者业务员数据不存在
+				//-102 //美导或者业务员角色错误
+				//-103 //商户没有绑定美导或者业务员
+				//-104 //代理商角色错误
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		//取消业务或者美导身份
+		$("#btn26").click(function(){
+			//aid 代理商编号
+			//sid 业务员或者美导的编号
+			var backmsg = {type:'exitsaleorhelp',aid:151,sid:154};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				//-100 还有商户关系没取消
+				//-101 业务员或者美导数据不存在
+				//-102 被取消的角色不是业务员也不是美导
+				//-103 代理商信息不存在
+				//-104 代理商角色错误
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		//更新用户信息
+		$("#btn27").click(function(){
+			//uid 用户信息
+			var backmsg = {type:'userinfoheart',uid:151,openid:'asd',token:'ada'};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				console.log('res='+atk);
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn28").click(function(){
+			
+			//gtype 商品类型    -1 所有  0.特价  1.推荐  2.积分商品   10.优惠套餐 11.合作商铺   20.项目引进  21.合作品牌
+			//ranktp 排行类型  1综合  2 价格  3销量   不参与写0
+			//lift 排序规则 1升序  2降序	不参与写0
+			//page 分页	不参与写0
+			
+			/*
+			-1 返回的数组
+			//error  ok
+			//arrtop 数组 顶部推荐
+			//tearr 数组   特价商品
+			//tuiarr 数组 推荐商品
+			//sourcearr 数组 积分商品
+			//arr 商品数组
+			*/
+			
+			var backmsg = {type:'goodsbytp',gtype:20,ranktp:1,lift:0,page:0,userid:512};			
+			jQuery.post("http://www.amyshirley.com/aml/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		$("#btn32").click(function(){
+			
+			//gtype 商品类型     0.特价  1.推荐  2.积分商品   10.优惠套餐 11.合作商铺   20.项目引进  21.合作品牌
+			/*
+			//error  ok
+			//arr 商品数组
+			*/
+			
+			var backmsg = {type:'topgoods',gtype:1};			
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		
+		
+		//发送登陆验证码
+		$("#btn29").click(function(){
+			//uid 用户信息
+			var backmsg = {type:'loginmsg',phone:13641759653};
+			
+			jQuery.post("http://www.amyshirley.com/aml2/sms/suncode/msgservice.php",backmsg,function(respdata){
+				var atk = respdata;
+				//Code OK 发送验证码
+				//Code -100 手机号码错误
+				//Code isv.BUSINESS_LIMIT_CONTROL 发送过于频繁
+				//Code 出现其他都是验证错误
+				console.log('res='+atk);
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		//登陆验证码
+		$("#btn30").click(function(){
+			//phone 手机号码
+			//code 短信验证码
+			var backmsg = {type:'login',phone:13641759653,code:8899,wxopenid:'d040c946f889f3118f55f812427f3f03'};
+
+			jQuery.post("http://www.amyshirley.com/aml2/php/Route.php",backmsg,function(respdata){
+				var atk = respdata;
+				//error ok 正确 {'error':'ok','openid':用户openid,'key':生成token的键,'userid':用户userid}
+				//error -100 参数错误
+				//error -101 短信验证超时
+				//error -102 登陆失败
+				//error -103 短信验证错误
+				console.log('res='+atk);
+				$("#showmgs").html(atk);
+			});
+		});
+		
+		//消息的验证
+		$("#btn31").click(function(){
+
+			//data 可以是原来的任何消息。目前用的是登陆的
+			//header 里面的 token 用逗号隔开 openid,token
+			$.ajax({
+			  url: "http://www.amyshirley.com/aml2/php/Route.php",
+			  data: {type:'tlogin',phone:13641759653,code:6546},
+			  type: "POST",
+			  beforeSend: function(xhr){xhr.setRequestHeader('token', 'ee862dbd3806f661eaf0e5311e7cce56,bef25e7b0778dc49fc2e2087966026c5');},//这里设置header
+			  success: function(respdata) {
+				var atk = respdata;
+
+				//error -1000 参数错误
+				//error -1001 没有登陆
+				//error -1002 token 失效
+
+				$("#showmgs").html(atk);				
+			  }
+			});
+		});
+		
+		//消息的验证
+		$("#btn33").click(function(){
+			
+			//fun:editinfo
+			//data 可以是原来的任何消息。目前用的是登陆的
+			//header 里面的 token 用逗号隔开 openid,token
+			$.ajax({
+			  url: "http://www.amyshirley.com/aml2/php/suncode/dealfuc.php",
+			  data: {fuc:'editinfo',phone:13641759659,username:'大小1',user:298},
+			  type: "POST",
+			  success: function(respdata) {
+				var atk = respdata;
+
+				//error -1000 参数错误
+				//error -1001 没有登陆
+				//error -1002 token 失效
+
+				$("#showmgs").html(atk);				
+			  }
+			});
+		});
+		
+		//购买列表
+		$("#btn34").click(function(){
+			//aid 代理商编号
+			//page 分页 0
+			//tp  0 未处理  1已经处理
+			$.ajax({
+			  url: "http://www.amyshirley.com/aml/php/Route.php",
+			  data: {type:'agentgoods',aid:550,page:0,tp:1},
+			  type: "POST",//这里设置header
+			  success: function(respdata) {
+				var atk = respdata;
+				$("#showmgs").html(atk);	
+				
+				/*{"error":"ok",
+				"arr":[{
+				"id":编号,
+				"agentid":代理商编号,
+				"buyerid":购买人编号,
+				"buytime":购买时间,
+				"gname":商品名字,
+				"handletime":处理时间,
+				"buyid":订单编号,
+				"price":价格,
+				"orderstate":0 未处理  3退款中   4已经退款  5 已经处理
+				"username":"用户名",
+				"phone":"手机号码"}]}*/
+				
+			  }
+			});
+		});
+		
+		//处理
+		$("#btn35").click(function(){
+
+			//aid 代理商编号
+			//buyid 购买编号
+			$.ajax({
+			  url: "http://www.amyshirley.com/aml/php/Route.php",
+			  data: {type:'handleagentgoods',aid:326,buyid:307},
+			  type: "POST",//这里设置header
+			  success: function(respdata) {
+				var atk = respdata;
+
+				//error -100 订单不是未处理状态
+				//error ok 成功
+				$("#showmgs").html(atk);				
+			  }
+			});
+		});
+		
+		//处理
+		$("#redisbtn").click(function(){
+
+			//aid 代理商编号
+			//buyid 购买编号
+			$.ajax({
+			  url: "http://www.amyshirley.com/aml/php/Route.php",
+			  data: {type:'loginredis',aid:326,buyid:307},
+			  type: "POST",//这里设置header
+			  success: function(respdata) {
+				var atk = respdata;
+
+				//error -100 订单不是未处理状态
+				//error ok 成功
+				$("#showmgs").html(atk);				
+			  }
+			});
+		});
+		
+	</script>
+</html>

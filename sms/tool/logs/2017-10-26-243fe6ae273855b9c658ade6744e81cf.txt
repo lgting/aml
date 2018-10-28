@@ -1,0 +1,3 @@
+Time : 13:34:20
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'coupon' cannot be null
+Raw SQL : insert into xl_consumelist(coupon,cptype,username,consumedate,notes,userid) values (?,?,?,?,?,?)

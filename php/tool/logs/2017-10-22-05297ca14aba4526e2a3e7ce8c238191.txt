@@ -1,0 +1,35 @@
+Time : 23:35:57
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 23:05:54
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 22:35:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 22:05:48
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 21:35:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 21:32:42
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 21:32:10
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 21:31:52
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)
+
+Time : 21:31:36
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'goodsid' in 'field list'
+Raw SQL : insert into xl_buylist(serialnum,setsname,buydate,giftnum,expnum,bindinfo,notes,userid,price,goodsid)values(?,?,?,?,?,?,?,?,?,?)

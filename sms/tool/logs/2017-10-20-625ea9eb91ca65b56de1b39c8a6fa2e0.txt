@@ -1,0 +1,19 @@
+Time : 06:34:03
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userid' cannot be null
+Raw SQL : insert into xl_msgcode(requestid,codeval,userid,rqstamp,phone) values(?,?,?,?,?)
+
+Time : 06:32:48
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userid' cannot be null
+Raw SQL : insert into xl_msgcode(requestid,codeval,userid,rqstamp,phone) values(?,?,?,?,?)
+
+Time : 06:29:44
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userid' cannot be null
+Raw SQL : insert into xl_msgcode(requestid,codeval,userid,rqstamp,phone) values(?,?,?,?,?)
+
+Time : 06:27:26
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userid' cannot be null
+Raw SQL : insert into xl_msgcode(requestid,codeval,userid,rqstamp,phone) values(?,?,?,?,?)
+
+Time : 06:22:11
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userid' cannot be null
+Raw SQL : insert into xl_msgcode(requestid,codeval,userid,rqstamp,phone) values(?,?,?,?,?)

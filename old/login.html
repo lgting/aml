@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+	
+	</body>
+	<script>
+		function setCookie(name, value) {
+			var Days = 30;
+			var exp = new Date();
+			exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+			document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+		}
+
+		//读取cookies 
+		function getCookie(name) {
+			var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+
+			if(arr = document.cookie.match(reg))
+
+				return unescape(arr[2]);
+			else
+				return null;
+		}
+
+		function getQueryString(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+			var r = window.location.search.substr(1).match(reg);
+			if(r != null) return unescape(r[2]);
+			return null;
+		}
+		
+		var openid = getQueryString('openid');
+		var detailsid = getQueryString('detailsid');
+		
+		setCookie('amxl_detailsid',"-1");
+		
+		if(openid!=null && openid!='' && openid!=undefined){
+			setCookie('amxl_openid',openid);
+			
+			//是否携带商品编号
+			if(detailsid!=null && detailsid!='' && detailsid!=undefined){
+				setCookie('amxl_detailsid',detailsid);
+			}
+			
+			var tourls = 'http://www.amyshirley.com/aml/index.html?';
+			window.location.href=tourls;
+		}
+		else{
+			console.log('hehe');
+		}
+	</script>
+
+</html>
